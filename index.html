@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziara Heritage - Bespoke Kenyan Vacations</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/new-navbar.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- ! bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <a aria-label="Chat on WhatsApp" href="https://wa.me/254722444211" class="icon-bounce"
+        id="whatsapp-button-container"> <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- ! navbar -->
+    <header>
+        <nav class="nav-container">
+            <ul class="sidebar">
+                <li onclick=hideSidebar() class="pt-3"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+                            <path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                        </svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="about.html">About Us</a></li> -->
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li class="pt-3"><a href="index.html"><img src="images\logo-header.png" alt="Ziara Logo" class="navbar-logo"> </a></li>
+                <li class="hideOnMobile pt-3"><a href="index.html">Home</a></li>
+                <!-- <li class="hideOnMobile pt-3"><a href="about.html">About Us</a></li> -->
+                <li class="hideOnMobile pt-3"><a href="destinations.html">Destinations</a></li>
+                <li class="hideOnMobile pt-3"><a href="pricing.html">Pricing</a></li>
+                <li class="hideOnMobile pt-3"><a href="contact.html">Contact Us</a></li>
+
+                <li class="menu-button pt-3" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+                            <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!-- ! hero -->
+    <section id="header">
+        <div class="masthead hero" id='hero-image' style="background-image: url('images/hero-bg.jpg');">
+            <div class="color-overlay">
+
+                <div id="hero-titles">
+                    <h1 class="hero-title slide-in1">Dream Vacations, <br>Tailored for you</h1>
+                    <h4 class="hero-subhead slide-in2">Say goodbye to the headaches of budget vacation packages.
+                        Experience true peace of mind with a bespoke vacation</h4>
+                </div>
+                <div class="hero-corner">
+                    <div class="">
+                        <a href="contact.html" class="btn ziara-cta btn-lg">CONTACT US</a>
+                    </div>
+                    <div class="">
+                        <img id="herologo" src="images/logo-white.png" alt="Ziara Logo">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <!-- ! why pick ziara -->
+    <section id="why-us" class="">
+        <div class="container text-box">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+
+                    <h2 class="">Why Holiday with Ziara
+                    </h2>
+
+                    <h3 class="">
+                        <h4 class=" nc-special">Embark on a journey with Ziara Heritage, where your dream vacation
+                            becomes a personalized reality. Our expertise transforms the ordinary into the
+                            extraordinary, offering you</h4>
+                        <p class=" nc-special"><strong>Tailored Planning:</strong> From the moment you reach out to us,
+                            our team of experts works tirelessly to curate an itinerary that matches your desires,
+                            interests, and budget, ensuring every detail reflects your unique vision.</p>
+                        <p class=" nc-special"><strong> Effortless Booking:</strong> Say farewell to the stress of
+                            last-minute changes. With Ziara Heritage, enjoy seamless booking experiences and the
+                            flexibility to adjust your plans with ease, supported by our round-the-clock assistance.</p>
+                        <p class=" nc-special"><strong>Unforgettable Experience:</strong> Embark on your adventure with
+                            confidence, knowing that every moment of your journey is crafted to perfection. From
+                            pristine beaches to thrilling safaris, immerse yourself in the wonders of Kenya with Ziara
+                            Heritage as your trusted guide.</p>
+                    </h3>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center jop-container">
+                        <img loading='lazy' src="images\jumping-with-maasai-md.jpg"
+                            alt="Hells Gate National Park nc-special" class="jop-pic card nc-special tilt-right ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="border-top mt-4"></div>
+
+
+
+    <!-- ! testimonial section -->
+    <section class="ziara-secondary pt-4 border-top border-bottom">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                    <img loading='lazy' src="images\3-lions-md.jpg" alt="man looking at the sea"
+                        class="not-below-md card jop-pic nc-special tilt-right ">
+                </div>
+                <div class="col-lg-6 p-4 d-flex justify-content-center align-items-center nc-special">
+                    <div class="testimonial-container">
+                        <img src="images\tk.jpg" alt="tk" class="testimonial-image nc-special">
+                        <div class="d-flex">
+                            <i class="bi bi-quote open-quote nc-special"></i>
+                            <h5 class="testimonial-abstract nc-special">Final price no more than a budget package</h5><i
+                                class="bi bi-quote close-quote nc-special"></i>
+                        </div>
+                        <p class="testimonial-body nc-special">Ziara helped enormously and exercised incredible patience
+                            after my wife and I approached then to organise a very specific game drive for us. Coming
+                            from
+                            South Africa, we had a very particular idea of what we wanted but weren’t always able to
+                            properly articulate that. Ziara worked with us until we finally settled on exactly what we
+                            were
+                            looking for and to our amazement the final price wasn’t significantly more than a budget
+                            package
+                            from the web that would have delivered less than half what we were looking for.</p>
+                        <p class="testimonial-name nc-special">T.K.</p>
+                        <P class="testimonial-country nc-special">South Africa</P>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <!-- !new 3 pillars sectoon -->
+    <section id="why-ziara" class="">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="text-center mb-4 mt-5">
+                    <h2>Engrained in Our Core</h2>
+                </div>
+                <div class="col-md-4 ziara-card nc-special">
+                    <div class="ziara-card-logo nc-special"><span class="material-symbols-outlined nc-special">
+                            travel_explore
+                        </span></div>
+                    <h3 class="ziara-card-title  nc-special">Customized and curated destinations</h3>
+                    <div class="ziara-card-text">
+                        <p class="d-inline-flex gap-1">
+                            <button class="btn ziara-cta" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#drop-down-1" aria-expanded="false" aria-controls="drop-down-1">
+                                READ MORE
+                            </button>
+                        </p>
+                        <div class="collapse" id="drop-down-1">
+                            <div class="card card-body">
+                                Whether you want to relax on the pristine beaches of the
+                                South
+                                Coast, explore the majestic
+                                peaks of Mt. Kenya, or witness the wildlife wonders of the National Parks, we have the
+                                perfect destination for you. Our travel experts will help you design your own vacation
+                                package, based on your preferences, interests, and budget. You can choose from our
+                                hand-picked selection of hotels, resorts, activities, and attractions, or let us
+                                surprise
+                                you with our exclusive and hidden gems. No matter what you choose, you will enjoy a
+                                unique
+                                and unforgettable travel experience in Kenya.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ziara-card nc-special">
+                    <div class="ziara-card-logo  nc-special"><span class="material-symbols-outlined">
+                            support_agent
+                        </span></div>
+                    <h3 class="ziara-card-title  nc-special">Exceptional and professional service</h3>
+                    <div class="ziara-card-text">
+                        <p class="d-inline-flex gap-1">
+                            <button class="btn ziara-cta" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#drop-down-2" aria-expanded="false" aria-controls="drop-down-2">
+                                READ MORE
+                            </button>
+                        </p>
+                        <div class="collapse" id="drop-down-2">
+                            <div class="card card-body">
+                                From the moment you contact us, until the moment you
+                                return home,
+                                we will take care of every
+                                detail of your trip. Our friendly and knowledgeable staff will assist you with booking,
+                                planning, and organizing your vacation. Our experienced and qualified guides will
+                                accompany
+                                you on your adventures, ensuring your safety, comfort, and enjoyment. Our reliable and
+                                courteous drivers will transport you to and from your destinations, with modern and
+                                well-maintained vehicles. Our attentive and hospitable partners will welcome you to
+                                their
+                                facilities, with high-quality amenities and services. We are committed to providing you
+                                with
+                                the best possible service, and exceeding your expectations.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ziara-card nc-special">
+                    <div class="ziara-card-logo  nc-special"><span class="material-symbols-outlined">
+                            account_balance_wallet
+                        </span></div>
+                    <h3 class="ziara-card-title  nc-special">Affordable and transparent pricing</h3>
+                    <div class="ziara-card-text">
+                        <p class="d-inline-flex gap-1">
+                            <button class="btn ziara-cta" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#drop-down-3" aria-expanded="false" aria-controls="drop-down-3">
+                                READ MORE
+                            </button>
+                        </p>
+                        <div class="collapse" id="drop-down-3">
+                            <div class="card card-body">
+                                We believe that everyone deserves to travel, and that
+                                travel
+                                should not break the bank. That
+                                is why we offer competitive and reasonable prices for our vacation packages, without
+                                compromising on quality or value. We also believe that travel should be hassle-free,
+                                and
+                                that there should be no hidden fees or charges. That is why we include everything in
+                                our
+                                prices, such as accommodation, transportation, meals, activities, entrance fees,
+                                taxes,
+                                and
+                                tips. You will not have to worry about any extra costs or surprises, as we will
+                                provide
+                                you
+                                with a clear and detailed breakdown of your expenses. You will only pay for what you
+                                get,
+                                and you will get the best deal for your money.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ! testimonial section -->
+    <section class="pt-4 ziara-secondary ">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-8 d-flex justify-content-center align-items-center">
+                    <img loading='lazy' src="images/claire-md.jpg" alt="man looking at the sea"
+                        class="card jop-pic tilt-left not-below-md nc-special">
+                </div>
+                <div class="col-lg-4 p-4 d-flex justify-content-center align-items-center  nc-special">
+                    <div class=" testimonial-container">
+                        <img src="images\loueng.jpg" alt="loong" class="testimonial-image nc-special">
+                        <div class="d-flex">
+                            <i class="bi bi-quote open-quote nc-special"></i>
+                            <h5 class="testimonial-abstract nc-special">Ziara managed everything for us</h5><i
+                                class="bi bi-quote close-quote nc-special"></i>
+                        </div>
+                        <p class="testimonial-body nc-special">My husband and I wanted to visit some friends in Nairobi.
+                            Of
+                            course we wanted to see The Mara during the great migration but we thought we'd struggle to
+                            organise this together with a suitable medium term rental property near our friends'
+                            apartment.
+                            In the end we found Ziara who managed everything for us and we ended up staying less than a
+                            5
+                            minute walk away from where our friends lived.</p>
+                        <p class="testimonial-name nc-special">Jiraporn</p>
+                        <P class="testimonial-country nc-special">Thailand</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ! where to go? -->
+    <section id="hells-gate" class="">
+        <div class="container text-box">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="">
+                        <h2 class="pt-4 nc-special">Exploring Kenya's Boundless Beauty</h2>
+                        <h4 class="pt-4 nc-special">Navigate Kenya's Diverse Wonders with Ease</h5>
+                            <p class="pt-2 nc-special">With an abundance of options, choosing your ideal Kenyan
+                                adventure may seem daunting. At Ziara Heritage, we alleviate this uncertainty by
+                                offering personalized consultations. Our experts meticulously select from our extensive
+                                network of resorts and activities, ensuring a tailor-made experience that exceeds
+                                expectations.</p>
+                    </div>
+                    <div class=" mb-5">
+                        <a href="contact.html" class="btn ziara-cta btn-lg nc-special">CONTACT US</a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center jop-container">
+                        <img loading='lazy' src="images/hells-gate-md.jpg" alt="Hells Gate National Park nc-special "
+                            class="jop-pic card nc-special tilt-right ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ! some popular destinations -->
+    <section id="destinations " class="ziara-secondary border-top border-bottom">
+        <div class="d-flex justify-content-center py-5 border-top nc-special">
+            <h2>Some Popular Destinations</h2>
+        </div>
+        <div class="container">
+            <div class="row pb-5 d-flex justify-content-center">
+
+
+                <div class="card m-4 text-center  nc-special" style="width: 18rem;">
+                    <img loading='lazy' src="images\2-lions-md.jpg" class="pt-3  nc-rounded-corders" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center nc-special">The Mara</h5>
+                        <p class="card-text text-center nc-special">Witness the Great Migration in Maasai Mara.
+                            Thrilling game drives, cultural encounters, luxurious lodges. Experience Africa's iconic
+                            wilderness.</p>
+                        <a href="destinations.html#mara" class="btn ziara-cta nc-special">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="card m-4 text-center nc-special" style="width: 18rem;">
+                    <img loading='lazy' src="images\kenyan-coast-md.jpg" class="pt-3 card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center nc-special">The Coast</h5>
+                        <p class="card-text text-center nc-special">Relax on Kenya's stunning shores. Beach getaways,
+                            championship golf, snorkeling adventures, turtle sanctuaries. Unwind in coastal paradise.
+                        </p>
+                        <a href="destinations.html#coast" class="btn ziara-cta nc-special">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="card m-4 text-center nc-special" style="width: 18rem;">
+                    <img loading='lazy' src="images\mt-kenya-md.jpg" class="pt-3 card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center nc-special">Mt Kenya</h5>
+                        <p class="card-text text-center nc-special">Conquer Africa's second highest peak. Challenging
+                            treks, stunning vistas, unique wildlife, cultural immersion. Embark on an alpine adventure.
+                        </p>
+                        <a href="destinations.html#mt-kenya" class="btn ziara-cta nc-special">LEARN MORE</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ! testimonial section -->
+    <section class="pt-4 border-top border-bottom">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-6 p-4 d-flex d-flex align-items-center justify-content-center nc-special">
+
+                    <div class="testimonial-container">
+                        <img src="images\nigel-face.jpg" alt="nigel" class="testimonial-image nc-special">
+                        <div class="d-flex">
+                            <i class="bi bi-quote open-quote nc-special"></i>
+                            <h5 class="testimonial-abstract nc-special">I quickly learnt to trust Ziara’s
+                                recommendations
+                            </h5><i class="bi bi-quote close-quote nc-special"></i>
+                        </div>
+                        <p class="testimonial-body nc-special">I used Ziara extensively while I was living in Kanya for
+                            everything from long term car rental to booking me on flights, trains and game drives. Apart
+                            from their competitive rates, I found the greatest value in their suggestions and advice.
+                            After
+                            a small time they’d developed an strong intuition about my preferences and dislikes so I
+                            quickly
+                            learnt to trust Ziara’s recommendations. Ziara stands head-and-shoulders above those
+                            faceless
+                            internet package distributors masquerading as ‘travel agents’ 😊</p>
+                        <p class="testimonial-name nc-special">Nigel</p>
+                        <P class="testimonial-country nc-special">United Kingdom</P>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                    <img loading='lazy' src="images/mike.jpg" alt="man looking at the sea"
+                        class="nc-special card jop-pic tilt-left">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ! frequently asked questions -->
+    <section class="ziara-secondary pb-3">
+        <div class="container  nc-special">
+            <div class="text-center pt-5 pb-5">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item  nc-special">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Are bespoke vacations expensive?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Our bespoke vacations at Ziara Heritage are designed to offer
+                            exceptional value. While transparent pricing ensures no surprise extras, our tailored
+                            approach often results in a comparable final price to budget packages, providing peace of
+                            mind and unparalleled experiences.</div>
+                    </div>
+                </div>
+                <div class="accordion-item  nc-special">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            What if I find I don't like the resort?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">With Ziara Heritage, your satisfaction is paramount. Our 24/7
+                            support means any concerns are swiftly addressed. If the resort doesn't meet expectations,
+                            we'll manage a seamless transition, covering associated costs. Your comfort and enjoyment
+                            are our top priorities.</div>
+                    </div>
+                </div>
+                <div class="accordion-item  nc-special">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            How safe is Kenya for foreigners?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Kenya's dedication to tourist safety is paramount. With significant
+                            measures to combat crime, incidents are rare. While security challenges persist near the
+                            Somali border, the overall threat level remains lower than many Western urban areas. Your
+                            safety and well-being are our utmost concern.</div>
+                    </div>
+
+                </div>
+                <div class="mb-5"></div>
+            </div>
+    </section>
+
+
+    <!-- ! footer -->
+    <section class="ziara-primary" id="footer">
+        <div class="container">
+            <div class="row pt-5">
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <p class="fw-bold mb-5 left-center">Delivery tailored dream holidays without
+                        compromise</p>
+                    <a href="index.html">
+                        <img id="footer-logo" class="mt-5" src="images/logo-white.png" alt="">
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h3 class="center-text">Contacts</h3>
+                    <div class="center-text">
+                        <span class=""></span>
+                        <h5 class="">
+                            <div>(+254) 0722 444 211
+                            </div>
+                            <div>
+                            </div>
+                            <div>(+254) 0756 463 844</div>
+                        </h5>
+                    </div>
+                    <div class="center-text">
+                        <span class=""></span>
+                        <h5 class="">info@ziaraheritage.com</h5>
+                    </div>
+                    <div class="center-text">
+                        <span class=""></span>
+                        <h5 class="">5th Ngong Avenue, Nairobi Kenya</h5>
+                    </div>
+                    <div class="center-text ">
+                        <span class=""></span>
+                        <h5 class="pb-5">www.ziaraheritage.com</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img loading='lazy' class="footer-pic rounded-corners card nc-special"
+                            src="images\zebra-behind-md.jpg" alt="zebra">
+                    </div>
+                </div>
+            </div>
+            <p class="py-4 text-center links mbr-fonts-style ">
+                &nbsp;&#169; 2024 Ziara Heritage - All Rights Reserved
+            </p>
+        </div>
+    </section>
+
+
+    <!-- ! Start of LiveChat (www.livechat.com) code -->
+
+    <!--!  End of LiveChat code -->
+
+
+    <!-- ! clear local storage variable lastQuote on close or refresh -->
+    <script src="scripts\clearStorage.js"></script>
+
+    <!-- ! form-hander script -->
+    <script src="scripts/index.js"></script>
+
+    <!-- !!navbar sctript -->
+    <script src="scripts\newNavbar.js"></script>
+
+    <!-- !bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

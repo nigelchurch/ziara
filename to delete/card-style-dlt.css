@@ -1,0 +1,56 @@
+.ziara-card-container {
+	/* padding: 1rem; */
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.ziara-card {
+    /* border-color: gray;
+    border-style: solid;
+    border-width: 1px; */
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    /* margin: 10px;  */
+    display: inline-block; 
+    max-width: 500px;
+	min-width:300px;
+}
+
+.ziara-card-logo {
+	padding: 10px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+
+/* google icons within the cards */
+.ziara-card .material-symbols-outlined {
+	font-size: 100px !important;
+	color:  #daad86;
+}
+
+.ziara-card-title {
+	padding: 10px;
+	/* display: flex; */
+	text-align: center;
+
+}
+
+.ziara-card-body {
+	padding: 10px;
+
+}
+
+
+.ziara-card-text {
+	padding: 10px;
+	margin-bottom: 2rem !important;
+	padding-top: 0px;
+	text-align: center;
+}
+
+
