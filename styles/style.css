@@ -35,7 +35,8 @@
 
 .masthead {
 	background-size: cover;
-	height: 100dvh;
+	height: 100vh;
+	height: 100svh;
 	position: relative;
 	color: white;
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
@@ -63,7 +64,8 @@
 .color-overlay {
 	position: absolute;
 	width: 100%;
-	height: 100dvh;
+	height: 100vh;
+	height: 100svh;
 
 	background-color: rgba(61,37,39, 1);
 	transition-property: background-color;
@@ -79,7 +81,8 @@
 
 
 #hero-titles {
-	height: 50dvh;
+	height: 50vh;
+	height: 50svh;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -138,7 +141,8 @@
 }
 
 .hero-corner {
-	height: 50dvh;
+	height: 50vh;
+	height: 50svh;
 	margin-left: 1rem;
 	display: flex;
 	flex-direction: column;
@@ -366,6 +370,10 @@
 
 .jop-container {
 	justify-content: end;
+}
+
+.event-container {
+	justify-content: center;
 }
 
 @media(max-width: 767px) {
